@@ -11,9 +11,10 @@ class App extends React.Component {
     showLogin:false,
     list:[],
     db:{user:'pass'}}
-  showLogin    = ()=> { this.setState({showLogin:true})  }
+
+  showLogin    = ()=> { this.setState({showLogin:true}) }
   hideLogin    = ()=> { this.setState({showLogin:false}) }
-  showRegister = ()=> { this.setState({showRegister:true})  }
+  showRegister = ()=> { this.setState({showRegister:true}) }
   hideRegister = ()=> { this.setState({showRegister:false}) }
 
   register = (item)=> {
